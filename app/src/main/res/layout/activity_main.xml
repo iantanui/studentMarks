@@ -116,6 +116,7 @@
                 android:enabled="false"
                 android:inputType="number"
                 android:padding="10dp"
+                android:hint="Answer is .."
                 android:textColor="@color/black"
                 tools:ignore="MissingConstraints" />
         </TableRow>
