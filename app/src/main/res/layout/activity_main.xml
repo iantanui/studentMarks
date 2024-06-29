@@ -13,7 +13,7 @@
         tools:ignore="UselessParent">
 
         <!-- Num1 -->
-        <TableRow>
+        <TableRow android:padding="8dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
         </TableRow>
 
         <!-- Num2 -->
-        <TableRow>
+        <TableRow android:padding="8dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
         </TableRow>
 
         <!-- Num3 -->
-        <TableRow>
+        <TableRow android:padding="8dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -82,7 +82,7 @@
         </TableRow>
 
         <!--  Answer -->
-        <TableRow>
+        <TableRow android:padding="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
