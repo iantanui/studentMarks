@@ -24,7 +24,7 @@
 
             <EditText
                 android:id="@+id/etNum1"
-                android:layout_width="121dp"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8dp"
@@ -39,7 +39,7 @@
         <TableRow>
 
             <TextView
-                android:layout_width="141dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
                 android:text="Num2"
