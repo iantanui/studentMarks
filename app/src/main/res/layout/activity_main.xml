@@ -31,12 +31,12 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8dp"
+                android:autofillHints=""
                 android:background="@color/white"
                 android:hint="Enter Num1"
                 android:inputType="number"
                 android:padding="10dp"
-                tools:ignore="MissingConstraints"
-                android:autofillHints="" />
+                tools:ignore="MissingConstraints" />
         </TableRow>
 
         <!-- Num2 -->
@@ -58,12 +58,12 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8dp"
+                android:autofillHints=""
                 android:background="@color/white"
                 android:hint="Enter Num2"
                 android:inputType="number"
                 android:padding="10dp"
-                tools:ignore="MissingConstraints"
-                android:autofillHints="" />
+                tools:ignore="MissingConstraints" />
         </TableRow>
 
         <!-- Num3 -->
@@ -85,12 +85,12 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8dp"
+                android:autofillHints=""
                 android:background="@color/white"
                 android:hint="Enter Num3"
                 android:inputType="number"
                 android:padding="10dp"
-                tools:ignore="MissingConstraints"
-                android:autofillHints="" />
+                tools:ignore="MissingConstraints" />
         </TableRow>
 
         <!--  Answer -->
@@ -114,9 +114,9 @@
                 android:layout_marginStart="8dp"
                 android:background="@color/white"
                 android:enabled="false"
+                android:hint="Answer is .."
                 android:inputType="number"
                 android:padding="10dp"
-                android:hint="Answer is .."
                 android:textColor="@color/black"
                 tools:ignore="MissingConstraints" />
         </TableRow>

@@ -1,7 +1,6 @@
 package com.example.studentmarks;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -10,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     private EditText etNum1, etNum2, etNum3, etAnswer;
+    private Button btnMaximum, btnMinimum;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,22 +21,13 @@ public class MainActivity extends AppCompatActivity {
         etNum3 = findViewById(R.id.etNum3);
         etAnswer = findViewById(R.id.etAnswer);
 
+        btnMaximum = findViewById(R.id.btnMaximum);
+        btnMinimum = findViewById(R.id.btnMinimum);
 
-        Button btnMaximum = findViewById(R.id.btnMaximum);
-        btnMaximum.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                calculateMaximum();
-            }
-        });
 
-        Button btnMinimum = findViewById(R.id.btnMinimum);
-        btnMinimum.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                calculateMinimum();
-            }
-        });
+        btnMaximum.setOnClickListener(view -> calculateMaximum());
+
+        btnMinimum.setOnClickListener(view -> calculateMinimum());
     }
 
     private void calculateMaximum() {
