@@ -18,9 +18,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/cardview_shadow_start_color"
                 android:padding="8dp"
                 android:text="Num1"
-                android:textSize="18sp" />
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/etNum1"
@@ -29,10 +32,11 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8dp"
                 android:background="@color/white"
-                android:hint="Num1"
+                android:hint="Enter Num1"
                 android:inputType="number"
                 android:padding="10dp"
-                tools:ignore="MissingConstraints" />
+                tools:ignore="MissingConstraints"
+                android:autofillHints="" />
         </TableRow>
 
         <!-- Num2 -->
@@ -41,9 +45,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/cardview_shadow_start_color"
                 android:padding="8dp"
                 android:text="Num2"
-                android:textSize="18sp" />
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/etNum2"
@@ -52,10 +59,11 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8dp"
                 android:background="@color/white"
-                android:hint="Num2"
+                android:hint="Enter Num2"
                 android:inputType="number"
                 android:padding="10dp"
-                tools:ignore="MissingConstraints" />
+                tools:ignore="MissingConstraints"
+                android:autofillHints="" />
         </TableRow>
 
         <!-- Num3 -->
@@ -64,9 +72,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/cardview_shadow_start_color"
                 android:padding="8dp"
                 android:text="Num3"
-                android:textSize="18sp" />
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/etNum3"
@@ -75,10 +86,11 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8dp"
                 android:background="@color/white"
-                android:hint="Num3"
+                android:hint="Enter Num3"
                 android:inputType="number"
                 android:padding="10dp"
-                tools:ignore="MissingConstraints" />
+                tools:ignore="MissingConstraints"
+                android:autofillHints="" />
         </TableRow>
 
         <!--  Answer -->
@@ -87,9 +99,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/cardview_shadow_start_color"
                 android:padding="8dp"
                 android:text="Answer"
-                android:textSize="18sp" />
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/etAnswer"
@@ -99,9 +114,9 @@
                 android:layout_marginStart="8dp"
                 android:background="@color/white"
                 android:enabled="false"
-                android:hint="Answer"
                 android:inputType="number"
                 android:padding="10dp"
+                android:textColor="@color/black"
                 tools:ignore="MissingConstraints" />
         </TableRow>
 
