@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <!-- Num1 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Num1"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etNum1"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:background="@color/white"
+                android:hint="Num1"
+                android:inputType="number"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <!-- Num2 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Num2"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etNum2"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:background="@color/white"
+                android:hint="Num2"
+                android:inputType="number"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <!-- Num3 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Num3"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etNum3"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:background="@color/white"
+                android:hint="Num3"
+                android:inputType="number"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <!--  Answer -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Answer"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etAnswer"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:background="@color/white"
+                android:enabled="false"
+                android:hint="Answer"
+                android:inputType="number"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <!-- Maximum and Minimum button -->
+        <TableRow
+            android:layout_height="74dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnMaximum"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:padding="8dp"
+                android:text="Maximum" />
+
+
+            <Button
+                android:id="@+id/btnMinimum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"
+                android:text="Minimum" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
